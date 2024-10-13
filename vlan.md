@@ -36,3 +36,9 @@ Switch(config)# interface Ethernet1/1
 Switch(config-if)# switchport mode trunk
 ```
 
+### 4. Povolení určitých VLAN na trunk portech
+
+```
+Switch(config)# interface Ethernet 2/1
+Switch(config-if)# switchport trunk allowed vlan 10,20
+```
