@@ -43,3 +43,11 @@ Defaultně mají trunk porty povoleny všechny VLAN z databáze
 Switch(config)# interface Ethernet 2/1
 Switch(config-if)# switchport trunk allowed vlan 10,20
 ```
+
+## Další příkazy
+
+Seznam všech portů + VLANů
+```
+show vlan brief
+```
+
