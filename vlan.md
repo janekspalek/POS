@@ -38,6 +38,7 @@ Switch(config-if)# switchport mode trunk
 
 ### 4. Povolení určitých VLAN na trunk portech
 
+Defaultně mají trunk porty povoleny všechny VLAN z databáze
 ```
 Switch(config)# interface Ethernet 2/1
 Switch(config-if)# switchport trunk allowed vlan 10,20
