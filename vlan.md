@@ -23,4 +23,13 @@ Pojmenování VLAN _(nepovinné)_
 Switch(config-vlan)# name V10
 ```
 
+### 1. Konfigurace access portů
+
+Každému portu zvlášť nastavíme _mode = access_ a číslo VLAN
+```
+SwitchX(config)# interface Ethernet 0/0
+SwitchX(config-if)# switchport mode access
+SwitchX(config-if)# switchport access vlan 10
+```
+
 
