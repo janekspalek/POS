@@ -90,7 +90,7 @@ Et2/2       20,30
 ### Seznam portů a jejich statusu
 
 ```
-Switch#   show interfaces status
+Switch# show interfaces status
 
 Port      Name               Status       Vlan       Duplex  Speed Type
 Et0/0                        connected    10           auto   auto unknown
