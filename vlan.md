@@ -46,7 +46,7 @@ Switch(config-if)# switchport trunk allowed vlan 10,20
 
 ## Další příkazy
 
-Seznam access portů a VLANů
+### Seznam access portů a VLANů
 ```
 show vlan brief
 ```
@@ -64,7 +64,7 @@ VLAN Name                             Status    Ports
 30   BLUE                             active    Et0/1
 ```
 
-Seznam trunk portů
+### Seznam trunk portů
 ```
 show interfaces trunk
 ```
