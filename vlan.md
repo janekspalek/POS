@@ -14,6 +14,6 @@
 ### 1. Vytvoření VLAN na každém switchi
 
 ```
-SwitchX(config)# vlan 10
-
+Switch(config)# vlan 10 // Vytvoření VLAN s číslem
+Switch(config-vlan)# name V10 // Pojmenování VLAN (nepovinné)
 ```
