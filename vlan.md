@@ -4,3 +4,8 @@
 - Každý VLAN je **číslo** přiřazené ke každému **portu** na switchi
 - Všechny porty, které nemají přiřazené VLAN číslo jsou v **defaultním VLANu (číslo 1)**
 
+## Trunk a Access porty
+
+- **Access port** = může být pouze v jedné VLAN
+- **Trunk port** = řídí provoz mezi více VLAN
+
