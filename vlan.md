@@ -70,6 +70,8 @@ show interfaces trunk
 ```
 
 ```
+Switch# show interfaces trunk
+
 Port        Mode             Encapsulation  Status        Native vlan
 Et1/1       on               802.1q         trunking      2
 Et2/1       on               802.1q         trunking      3
