@@ -13,4 +13,7 @@
 
 ### 1. Vytvoření VLAN na každém switchi
 
-``Switch(config)# vlan 10``
+```
+SwitchX(config)# vlan 10
+
+```
