@@ -46,7 +46,7 @@ Switch(config-if)# switchport trunk allowed vlan 10,20
 
 ## Další příkazy
 
-Seznam všech portů + VLANů
+Seznam access portů a VLANů
 ```
 show vlan brief
 ```
@@ -63,5 +63,33 @@ VLAN Name                             Status    Ports
 20   ORANGE                           active
 30   BLUE                             active    Et0/1
 ```
+
+Seznam trunk portů
+```
+show interfaces trunk
+```
+
+```
+Port        Mode             Encapsulation  Status        Native vlan
+Et1/1       on               802.1q         trunking      2
+Et2/1       on               802.1q         trunking      3
+Et2/2       on               802.1q         trunking      3
+
+Port        Vlans allowed on trunk
+Et1/1       1-4094
+Et2/1       10,20
+Et2/2       20,30
+
+Port        Vlans allowed and active in management domain
+Et1/1       1,10,20,30
+Et2/1       10,20
+Et2/2       20,30
+
+Port        Vlans in spanning tree forwarding state and not pruned
+Et1/1       1,10,20,30
+Et2/1       10,20
+Et2/2       20,30
+```
+
 
 
