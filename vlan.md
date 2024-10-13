@@ -51,3 +51,17 @@ Seznam všech portů + VLANů
 show vlan brief
 ```
 
+```
+Switch# show vlan brief
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Et0/2, Et0/3, Et1/0, Et1/2
+                                                Et1/3, Et2/0, Et2/3, Et3/0
+                                                Et3/1, Et3/2, Et3/3
+10   RED                              active    Et0/0
+20   ORANGE                           active
+30   BLUE                             active    Et0/1
+```
+
+
