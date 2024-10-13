@@ -6,6 +6,7 @@
 
 ## Trunk a Access porty
 
-- **Access port** = může být pouze v jedné VLAN
+- **Access port** = může být pouze v jedné VLAN, je do něj většinou připojený PC
 - **Trunk port** = řídí provoz mezi více VLAN
+
 
