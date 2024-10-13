@@ -18,7 +18,7 @@ Vytvoření VLAN s číslem
 Switch(config)# vlan 10
 ```
 
-Pojmenování VLAN (nepovinné)
+Pojmenování VLAN _(nepovinné)_
 ```
 Switch(config-vlan)# name V10
 ```
