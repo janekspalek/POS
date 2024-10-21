@@ -24,7 +24,6 @@ nebo
 Tento příkaz nastaví pro daný port adresu a masku podsítě
 ```
 (config-if)# ip address <adresa> <maska>
-
 (config-if)# ip address 10.0.0.1 255.255.255.252
 ```
 
