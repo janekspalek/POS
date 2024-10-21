@@ -16,6 +16,9 @@ Nastavení rozhraní routeru
 (config)# interface FastEthernet 0/0
 nebo
 (config)# interface GigabitEthernet 0/0/1
+
+(config-if)# ip address <adresa> <maska>
 ```
 
+Nastavení rozhraní routeru
 
