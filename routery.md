@@ -3,7 +3,7 @@
 - Router spojuje **různé sítě** a umožňuje přenos dat mezi nimi
 - Řídí tok dat z jedné sítě do druhé pomocí **přesměrování**
 
-## Konfigurace
+## Konfigurace směrovacích portů
 
 Nastavení názvu routeru
 ```
@@ -32,3 +32,6 @@ Standardně je rozhraní vypnuté, tímto příkazem jej zapneme
 ```
 (config-if)# no shutdown
 ```
+
+## Konfigurace přepínaných portů
+
