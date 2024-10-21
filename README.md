@@ -5,6 +5,11 @@
 show ip interface brief
 ```
 
+### Zobrazení směrovací tabulky
+```
+show ip route
+```
+
 ### Výpis sousedních zařízení
 ```
 show cdp neighbors
