@@ -33,5 +33,16 @@ Standardně je rozhraní vypnuté, tímto příkazem jej zapneme
 (config-if)# no shutdown
 ```
 
-## Konfigurace přepínaných portů
+## Konfigurace přepínaných portů (pro PC)
+### 1. Výběr rozhraní routeru
+Tímto příkazem se vybere konkrétní port, který bude připojený k síti a přiřadíme ho do určité VLAN
+Místo X se dá číslo portu
+```
+(config)# interface gi0/1/X
+```
 
+### 2. Nastavení režimu portu
+Tento příkaz nastaví port do režimu _access_
+```
+(config-if)# switchport mode access
+```
