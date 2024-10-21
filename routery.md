@@ -15,6 +15,7 @@ Nastavení názvu routeru
 Tímto příkazem se vybere, které **rozhraní** (port) chci nakonfigurovat
 ```
 (config)# interface <typ> <oznaceni>
+
 (config)# interface FastEthernet 0/0
 nebo
 (config)# interface GigabitEthernet 0/0/1
