@@ -91,3 +91,6 @@ Vybrání virtuální rozhraní pro určitou VLAN
 (config)# ip route 10.0.4.0 255.255.255.0 10.0.0.2
 ```
 
+![image](https://github.com/user-attachments/assets/cb2d4e02-4ddd-4259-a63d-9920d94d927e)
+
+
