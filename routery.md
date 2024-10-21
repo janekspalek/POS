@@ -46,3 +46,36 @@ Tento příkaz nastaví port do režimu _access_
 ```
 (config-if)# switchport mode access
 ```
+
+### 3. Vytvoření VLAN
+```
+(config-if)# vlan 10
+```
+
+### 3. Přiřazení portu k VLAN
+```
+(config-if)# switchport access vlan 10
+```
+
+### 4. Aktivace rozhraní
+Standardně je rozhraní vypnuté, tímto příkazem jej zapneme
+```
+(config-if)# no shutdown
+```
+
+## Konfigurace virtuálního rozhraní pro VLAN (SVI - Switched Virtual Interface)
+### 1. Výběr virtuálního rozhraní VLAN
+Vybrání virtuální rozhraní pro určitou VLAN
+```
+(config)# interface vlan 10
+```
+
+### 2. Nastavení IP adresy a masky pro VLAN
+```
+(config-if)# ip address <adresa> <maska>
+```
+
+### 3. Aktivace virtuálního rozhraní
+```
+(config-if)# no shutdown
+```
