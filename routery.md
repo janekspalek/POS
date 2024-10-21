@@ -79,3 +79,15 @@ Vybrání virtuální rozhraní pro určitou VLAN
 ```
 (config-if)# no shutdown
 ```
+
+## Statické směrování
+
+**Síť** = adresa sítě, do které se chceme dostat
+**Maska** = maska sítě, do které se chceme dostat
+**Nexthop** = adresa routeru, přes který má cesta do sítě jít
+```
+(config)# ip route <sit> <maska> <nexthop>
+
+(config)# ip route 10.0.4.0 255.255.255.0 10.0.0.2
+```
+
