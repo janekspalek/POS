@@ -11,7 +11,6 @@ Nastavení názvu routeru
 ```
 
 ### 1. Výběr rozhraní routeru
-
 Tímto příkazem se vybere, které **rozhraní** (port) chci nakonfigurovat
 ```
 (config)# interface <typ> <oznaceni>
@@ -21,9 +20,14 @@ nebo
 (config)# interface GigabitEthernet 0/0/1
 ```
 
+### 2. Nastavení IP adresy a masky
+Tento příkaz nastaví pro daný port adresu a masku podsítě
+```
 (config-if)# ip address <adresa> <maska>
-(config-if)# no shutdown
 ```
 
-Nastavení rozhraní routeru
-
+### 3. Aktivace rozhraní
+Standardně je rozhraní vypnuté, tímto příkazem jej zapneme
+```
+(config-if)# no shutdown
+```
