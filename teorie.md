@@ -15,7 +15,7 @@ protože tyto se objevují v základech datových a telekomunikačních sítí �
 - Použití Ethernet 10 Mbps
 
 ### 2. AMI (Alternate Mark Inversion)
-- Tři úrovně signálu: 0, +1, -1
+- **Tři úrovně signálu**: 0, +1, -1
 - 0 -> úroveň 0
 - 1 -> střídání mezi +1 a -1
 - Při dlouhých sekvencích 0 ztrácí synchronizaci
