@@ -14,3 +14,10 @@ protože tyto se objevují v základech datových a telekomunikačních sítí �
 - Změna signálu na začátku intervalu představuje 0, žádná změna představuje 1
 - Přechod uprostřed bitu je vždy přítomen
 - Použití Ethernet 10 Mbps
+
+### 2. AMI (Alternate Mark Inversion)
+
+- Tři úrovně signálu: 0, +1, -1
+- 0 -> úroveň 0
+- 1 -> střídání mezi +1 a -1
+- Při dlouhých sekvencích 0 ztrácí synchronizaci
