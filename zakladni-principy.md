@@ -55,4 +55,3 @@ Dělí se podle směru přenosu
 - 1 -> změna signálu
 - 0 -> žádná změna signálu
 - **Použití**: běžné v datových sítích, protože umožňuje lepší synchronizaci při dlouhých sekvencích 0 nebo 1.
-
