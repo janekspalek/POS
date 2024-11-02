@@ -9,7 +9,6 @@
 
 
 ## Pravděpodobnostní protokoly (Contention-based)
-
 ### 1. Aloha
 - Základní protokol, kde stanice vysílá bez kontroly, zda je kanál volný
 - Po kolizi stanice počká náhodný čas a zkusí to znovu
@@ -26,3 +25,14 @@
 - Po kolizi stanice detekuje srážku a zastaví vysílání, aby šetřila kapacitu kanálu
 - `Ethernet` **je příkladem technologie, která tento protokol využívá**
 
+## Deterministické protokoly** (Contention-free)
+### 1. Centralized Control
+- Jeden hlavní uzel (např. master stanice) řídí přístup ke kanálu pro ostatní uzly
+- `Polling` - hlavní uzel dotazuje stanice, zda chtějí vysílat
+- `Request Arbitration` - stanice žádají o přístup na odděleném kanálu a hlavní uzel rozhoduje o přidělení
+
+### 2. Distributed Control
+- Každá stanice má možnost přístupu bez centrální kontroly, ale podle určitého algoritmu
+- `Bit-Map Protocol` - hlavní stanice generuje rezervační rámec, který určiuje, která stanice může vysílat
+- `Binary Countdown` - stanice vysílají adresy bit po bitu. Stanice s nejvyšší prioritou získává právo vysílat
+- `Token passing` - právo na vysílání je reprezentováno tokenem, který si stanice předávají
