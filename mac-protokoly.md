@@ -25,7 +25,7 @@
 - Po kolizi stanice detekuje srážku a zastaví vysílání, aby šetřila kapacitu kanálu
 - `Ethernet` **je příkladem technologie, která tento protokol využívá**
 
-## Deterministické protokoly** (Contention-free)
+## Deterministické protokoly (Contention-free)
 ### 1. Centralized Control
 - Jeden hlavní uzel (např. master stanice) řídí přístup ke kanálu pro ostatní uzly
 - `Polling` - hlavní uzel dotazuje stanice, zda chtějí vysílat
