@@ -5,7 +5,7 @@
 3. `Bezdrátová média` - **Wi-Fi**, **Bluetooth** přenášejí data vzduchem
 
 ### 1. Koaxiální kabely
-- V minulosti se využívaly pro počítačové sitě, nyní se využívají pro kabelovou televizi
+- V minulosti se využívaly pro počítačové sítě, nyní se využívají pro kabelovou televizi
 - Podporují `Baseband` i `Broadband` přenos, ale jsou dražší než kroucená dvojlinka
 - Dosah několika set metrů až kilometrů
 
