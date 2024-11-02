@@ -43,6 +43,9 @@
 - Zařízení jsou propojena v kruhu a každé zařízení posíla data jen jednomu sousednímu zařízení
 - Citlivá na výpadky
 
+<img src="https://github.com/user-attachments/assets/a4d8c27d-73fc-4115-96ef-117fa57ed7fe" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
+
 ### 5. Mesh (síťová topologie)
 - Přímé propojení mezi zařízeními (**často mezi routery v WAN**)
 
+<img src="https://github.com/user-attachments/assets/55eadc36-eeeb-43df-857c-9fed10a7ab08" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
