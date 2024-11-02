@@ -9,7 +9,7 @@
 - Podporují `Baseband` i `Broadband` přenos, ale jsou dražší než kroucená dvojlinka
 - Dosah několika set metrů až kilometrů
 
-<img src="https://github.com/user-attachments/assets/80b1e755-7516-4b65-b738-d3041bfad640" alt="popis obrázku" style="max-width: 500px; width: 100%;">
+<img src="https://github.com/user-attachments/assets/80b1e755-7516-4b65-b738-d3041bfad640" alt="popis obrázku" style="max-width: 100%; width: 500px;">
 
 
 ### 2. Kroucená dvojlinka (Twisted Pair)
