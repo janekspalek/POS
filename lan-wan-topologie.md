@@ -4,9 +4,9 @@
 - Na médium se přenáší vždy **jen jeden paket najednou**
 
 **Typické topologie:**
-1. Hvězda
-2. Sběrnicová (bus)
-3. Strom (propojené hvězdy)
+1. `Hvězda`
+2. `Sběrnicová` (bus)
+3. `Strom` (propojené hvězdy)
 
 ## 2. WAN (Wide Area Network)
 - **Širokopásmová síť**, která propojuje zařízení na větší vzdálenosti (např. mezi městy, zeměmi)
