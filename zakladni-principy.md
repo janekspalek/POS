@@ -21,7 +21,7 @@ Dělí se podle směru přenosu
 2. `FM (Frequency Modulation)` - změna **frekvence** nosného signálu podle dat
 3. `PM (Phase modulation)` - změna **fáze** signálu, aby nesl informace
 
-# 4. Základní přenosové metoddy Baseband a Broadband
+# 4. Základní přenosové metody Baseband a Broadband
 1. `Baseband` - přenáší data v původní frekvenční oblasti bez modulace. Data mohou využívat celé frekvenční pásmo pro sebe a nevyužívají různé kanály, nedělí tedy médium pro více uživatelů. Používá se v LAN, Ethernetu
 2. `Broadband` - rozdělí šířku pásma na více kanálů, což umožní **více komunikací současně**. Je typický pro kabelovou televizi, mobilní sítě (3G, 4G, 5G), Wi-Fi sítě, satelitní internet a televize, optické sítě
 
