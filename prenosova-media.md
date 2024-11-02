@@ -24,4 +24,8 @@
 - `Multimode` - má širší jádro a využívá se na kratší vzdálenosti (např. v budovách)
 - `Singlemode` - užší jádro, vhodné pro dlouhé vzdálenosti s vyšší přenosovou rychlostí
 
+**Hlavní výzvy optických vláken**:
+- `Chromatická disperze` - různé frekvence světla se šíří různou rychlostí, což způsobuje zkreslení
+- `Modální disperze` - u multimode vláken vzniká zpoždění mezi různými světelnými paprsky, což omezuje rychlost
+
 <img src="https://github.com/user-attachments/assets/e5d26f40-7071-4ccc-8db3-203630a99720" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
