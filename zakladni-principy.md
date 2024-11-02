@@ -28,7 +28,7 @@ Dělí se podle směru přenosu
 # 5. Kódování signálu pro přenos dat
 ### 1. Manchester a Differential Manchester
 **Manchester**
-- Každý bit je reprezentován změnouu úrovně uprostřed bitového intervalu
+- Každý bit je reprezentován změnou úrovně uprostřed bitového intervalu
 - 0 -> přechod z nízké na vysokou úroveň
 - 1 -> přechod z vysoké na nízkou úroveň
 
