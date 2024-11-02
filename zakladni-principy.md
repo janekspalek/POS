@@ -1,10 +1,10 @@
-# 1. Základní principy přenosu dat
+## 1. Základní principy přenosu dat
 Dělí se podle směru přenosu
 1. `Simplex` - **jednosměrný provoz**, kdy jde signál jen jedním směrem (TV)
 2. `Half duplex` - **přenos obousměrný**, ale pouze jeden směr najednou (vysílačka)
 3. `Full duplex` - **přenos obousměrný**, obě strany mohou komunikovat současně (Ethernet)
 
-# 2. Paralelní a sériová komunikace
+## 2. Paralelní a sériová komunikace
 1. `Paralelní` - více bitů je přenášeno současně, je dražší a komplikovanější na synchronizaci
 2. `Sériová` - v dnešní době standardem, kvůli nižším nákladům a jednodušší konstrukci kabelů
 
