@@ -5,5 +5,7 @@
 
 ## Spanning Tree Protocol (STP) 🌳
 - Protokol, využívaný ve switchi k prevenci smyček v síti
+- Má za úkol vytvořit logické spojení mezi switchemi tak, aby mezi nimi existovala jediná cesta ke každému zařízení, což zabrání vzniku smyček
+- Všechny redundantní cesty jsou automaticky zablokovány
 - Vytváří stromovou strukturu (spanning tree) a blokuje redundantní cesty
 - Pokud nastane výpadek, STP automaticky přepočítá topologii a zajistí, že síť zůstane funkční
