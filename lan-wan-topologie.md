@@ -50,6 +50,6 @@
 
 <img src="https://github.com/user-attachments/assets/55eadc36-eeeb-43df-857c-9fed10a7ab08" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
 
-### 6. Příklad topologie internetu
+## 4. Příklad topologie internetu
 - Internet kombinuje různé topologie LAN a WAN a propojuje je přes routery
 - Každý menší síť v internetu může mít vlastní topologii
