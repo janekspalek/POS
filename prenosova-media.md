@@ -11,6 +11,8 @@
 
 ![image](https://github.com/user-attachments/assets/80b1e755-7516-4b65-b738-d3041bfad640)
 
+<img src="https://github.com/user-attachments/assets/80b1e755-7516-4b65-b738-d3041bfad640" alt="popis obrázku" style="max-width: 100%; width: 500px; height: auto;">
+
 
 ### 2. Kroucená dvojlinka (Twisted Pair)
 - Levnější než koaxiál a běžně používaná v LAN
