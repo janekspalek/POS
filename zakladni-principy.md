@@ -37,6 +37,8 @@ Dělí se podle směru přenosu
 - Přechod uprostřed bitu je vždy přítomen
 - Použití Ethernet 10 Mbps
 
+![image](https://github.com/user-attachments/assets/0640e6f2-25fa-473e-ab05-ca89b6dffeef)
+
 ### 2. AMI (Alternate Mark Inversion)
 - **Tři úrovně signálu**: 0, +1, -1
 - 0 -> úroveň 0
