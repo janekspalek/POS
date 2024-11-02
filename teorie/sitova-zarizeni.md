@@ -10,7 +10,7 @@
 - Vytváří stromovou strukturu (spanning tree) a blokuje redundantní cesty
 - Pokud nastane výpadek, STP automaticky přepočítá topologii a zajistí, že síť zůstane funkční
 
-## Routery (Směrovače)
+## Routery (Směrovače) 
 - Směrovací zařízení, které propojuje sítě na síťové vrstvě (Layer 3)
 - Umožňuje propojit různé sítě, používá IP adresy k předání dat na správné místo
 - Routery mohou být nakonfigurovány ručně (`statické směrování`), nebo automaticky (`dynamické směrování`) například pomocí `OSPF`
