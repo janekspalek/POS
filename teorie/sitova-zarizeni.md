@@ -15,7 +15,7 @@
 - Umožňuje propojit různé sítě, používá IP adresy k předání dat na správné místo
 - Routery mohou být nakonfigurovány ručně (`statické směrování`), nebo automaticky (`dynamické směrování`) například pomocí `OSPF`
 
-Jejich další funkce jsou:
+**Jejich další funkce jsou:**
 1. `NAT` (Network Address Translation)
 2. `Firewall` a bezpečností funkce
 3. `VPN` pro zabezpečené propojení na dálku
