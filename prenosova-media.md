@@ -11,5 +11,5 @@
 
 ### 2. Kroucená dvojlinka (Twisted Pair)
 - Levnější než koaxiál a běžně používaná v LAN
-- Obsahuje `čtyři páry drátů`, často se stíněním pro ochranu proti elektromagnetickému rušení
+- Obsahuje `čtyři páry drátů`, často se stíněním pro ochranu proti `elektromagnetickému rušení`
 - **Kategori kabelů** (Cat3 až Cat8) určují kvalitu a maximální rychlost přenosu. Cat5e a vyšší podporují gigabitové přenosy
