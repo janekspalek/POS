@@ -24,10 +24,14 @@
 - Nízké náklady, ale omezená bezpečnost a odolnost vůči selhání
 - Vhodná pro malé sítě, ale obtížná na údržbu
 
+<img src="https://github.com/user-attachments/assets/7c60e389-758e-4852-b410-a6664915d3e0" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
+
 ### 2. Hvězdicová topologie (Star)
 - Každé zařízení je připojeno k centrálnímu uzlu (např. hub nebo switch)
 - Odolná vůči selhání jednotlivých zařízení, ale pokud selže centrální uzel, celá síť přestane fungovat
 - **Je to nejčastější topologie v LAN sítích**
+
+<img src="https://github.com/user-attachments/assets/93c0a06e-4762-47be-bdd2-3768eae1fd35" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
 
 ### 3. Stromová topologie (Tree)
 - Rozšířená hvězdicová topologie s hierarchickým uspořádáním (větve)
