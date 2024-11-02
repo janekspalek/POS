@@ -16,3 +16,29 @@
 **Typické topologie:**
 1. Síť (mesh)
 2. Hvězda s centrálním uzlem
+
+## 3. Síťové topologie
+
+### 1. Sběrnicová topologie (Bus)
+- Všechna zařízení jsou připojena ke **společnému kabelu** (**sběrnici**)
+- Nízké náklady, ale omezená bezpečnost a odolnost vůči selhání
+- Vhodná pro malé sítě, ale obtížná na údržbu
+
+### 2. Hvězdicová topologie (Star)
+- Každé zařízení je připojeno k centrálnímu uzlu (např. hub nebo switch)
+- Odolná vůči selhání jednotlivých zařízení, ale pokud selže centrální uzel, celá síť přestane fungovat
+- **Je to nejčastější topologie v LAN sítích**
+
+### 3. Stromová topologie (Tree)
+- Rozšířená hvězdicová topologie s hierarchickým uspořádáním (větve)
+- Flexibilní a rozšiřitelná, často používaná v moderních LAN
+
+<img src="https://github.com/user-attachments/assets/6bad1fe9-1b7e-412a-9719-f6b6d5958c12" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
+
+### 4. Kruhová topologie (Ring)
+- Zařízení jsou propojena v kruhu a každé zařízení posíla data jen jednomu sousednímu zařízení
+- Citlivá na výpadky
+
+### 5. Mesh (síťová topologie)
+- Přímé propojení mezi zařízeními (**často mezi routery v WAN**)
+
