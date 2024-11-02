@@ -19,3 +19,9 @@
 
 <img src="https://github.com/user-attachments/assets/f2fa5371-2b3d-4398-a0dc-45d1a452d35a" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
 
+### 3. Optická vlákna
+- Optické vlákno přenáší data pomocí `světla`, což minimalizuje rušení a umožňuje velmi vysoké rychlost
+- `Multimode` - má širší jádro a využívá se na kratší vzdálenosti (např. v budovách)
+- `Singlemode` - užší jádro, vhodné pro dlouhé vzdálenosti s vyšší přenosovou rychlostí
+
+<img src="https://github.com/user-attachments/assets/e5d26f40-7071-4ccc-8db3-203630a99720" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
