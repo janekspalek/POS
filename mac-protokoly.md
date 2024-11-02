@@ -8,7 +8,7 @@
 2. **Deterministické protokoly** (Contention-free) - stanice se střídají podle předem daného algoritmu, **což zabrání kolizím**
 
 
-## 1. Pravděpodobnostní protokoly (Contention-based)
+## Pravděpodobnostní protokoly (Contention-based)
 
 ### 1. Aloha
 - Základní protokol, kde stanice vysílá bez kontroly, zda je kanál volný
