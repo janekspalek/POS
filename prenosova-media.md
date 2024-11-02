@@ -9,7 +9,7 @@
 - Podporují `Baseband` i `Broadband` přenos, ale jsou dražší než kroucená dvojlinka
 - Dosah několika set metrů až kilometrů
 
-<img src="https://github.com/user-attachments/assets/80b1e755-7516-4b65-b738-d3041bfad640" alt="popis obrázku" style="max-width: 100%; width: 500px;">
+<img src="https://github.com/user-attachments/assets/80b1e755-7516-4b65-b738-d3041bfad640" alt="Koaxiální kabel" style="max-width: 100%; width: 500px;">
 
 
 ### 2. Kroucená dvojlinka (Twisted Pair)
@@ -17,5 +17,5 @@
 - Obsahuje **čtyři páry drátů**, často se stíněním pro ochranu proti `elektromagnetickému rušení`
 - **Kategori kabelů** (Cat3 až Cat8) určují kvalitu a maximální rychlost přenosu. Cat5e a vyšší podporují gigabitové přenosy
 
-![image](https://github.com/user-attachments/assets/f2fa5371-2b3d-4398-a0dc-45d1a452d35a)
+<img src="https://github.com/user-attachments/assets/f2fa5371-2b3d-4398-a0dc-45d1a452d35a" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
 
