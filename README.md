@@ -1,3 +1,14 @@
+# Další informace
+
+### Testy
+
+#### 1. Test na přednášce (teorie) - 4.10.2024
+- **VLSM**
+- **1. vrstva OSI RM**: Kódování, modulace, metody přístupu k sdílenému médiu, topologie, média
+- **2. vrstva OSI RM**: Přepínače, adresace, rámce Ethernetu, Spanning tree, VLAN
+- **3. vrstva OSI RM**: IPv4, IPv6 a servisní protokoly
+- OSI RM - enkapsulace, PDU
+
 # Další příkazy
 
 ### Zobrazení stavu všech portů + přiřazených IP adres
