@@ -9,11 +9,18 @@ Dělí se podle směru přenosu
 2. `Sériová` - v dnešní době standardem, kvůli nižším nákladům a jednodušší konstrukci kabelů
 
 ## Asynchronní a synchronní přenos
-
 1. `Asynchronní` - přenáší znaky jeden po druhém s jednotlivými stop bity a možností kontroly parity (klávesnice)
 2. `Synchronní` - data se přenáší ve formě **rámců s hlavičkou**, kontrolními součty a bez nutnosti synchronizace pro každý znak. **Vhodné pro vysokorychlostní přenos**, synchronizace probíhá na začátku bloku, takže ji není potřeba neustále obnovovat
 
 # 3. Přenosová média a modulace signálu
-
 1. `Fyzické vlastnosti signálu` - data se přenáší prostřednictvím **signálu** (napětí, intenzita světla...) který nese informace. Tyto signálu ale mohou být ovlivněny šumem a útlumem prostředí
 2. `Typy médií` - optická vlákna, kroucená dvojlinka a koaxiální kabely
+
+## Modulace
+1. `AM (Amplitude Modulation)` - změna **amplitudy** nosného signálu podle dat
+2. `FM (Frequency Modulation)` - změna **frekvence** nosného signálu podle dat
+3. `PM (Phase modulation)` - změna **fáze** signálu, aby nesl informace
+
+# 5. Základní přenosové metoddy Baseband a Broadband
+1. `Baseband` - přenáší data v původní frekvenční oblasti bez modulace - používá se v LAN
+2. `Broadband` - rozdělí šířku pásma na více kanálů, což umožní **více komunikací současně**
