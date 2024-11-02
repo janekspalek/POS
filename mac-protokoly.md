@@ -21,3 +21,8 @@
 - `1-persistent CSMA` - stanice čeká, dokud kanál není volný, a pak hned vysílá
 - `Non-persistent CSMA` - pokud je kanál obsazený, stanice počká náhodný čas a zkusí znovu
 - `p-persistent CSMA` - když je kanál volný, stanice vysílá s pravděpodobností p, jinak čeká na další časový slot
+
+### 3. CSMA/CD (CSMA with Collision Detection)
+- Po kolizi stanice detekuje srážku a zastaví vysílání, aby šetřila kapacitu kanálu
+- `Ethernet` **je příkladem technologie, která tento protokol využívá**
+
