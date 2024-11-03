@@ -17,3 +17,11 @@
 
 ### 10Base-T
 - Připojení pomocí twister pair (kroucená dvojlinka 🔥)
+
+### Fast Ethernet (100 Mbps, 100Base-T)
+- Založen na 10Base-T, ale s vyšší rychlostí 100 Mbps
+- Používá kabely UTP kategorie 5 (maximální délka 100 metrů)
+
+### Gigabit Ethernet (1000 Mbps)
+- Vyšší rychlost 1 Gbps, používá optická vlákna nebo UTP kabely
+- Např. 1000Base-T (UTP)
