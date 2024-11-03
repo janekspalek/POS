@@ -43,8 +43,8 @@ Dělí se podle směru přenosu
 
 #### Manchester
 - Každý bit je reprezentován změnou uprostřed bitového intervalu
-- 0 -> sestup signálu
-- 1 -> vzestup signálu
+- 0 -> přechod z nízké na vysokou úroveň
+- 1 -> přechod z vysoké na nízkou úroveň
 
 <img src="https://github.com/user-attachments/assets/f992fdfc-4983-4012-8ba8-936410fc363c" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
 
