@@ -27,7 +27,7 @@
 <img src="https://github.com/user-attachments/assets/7c60e389-758e-4852-b410-a6664915d3e0" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
 
 ### 2. Hvězdicová topologie (Star)
-- Každé zařízení je připojeno k centrálnímu uzlu (např. hub nebo switch)
+- Každé zařízení je připojeno k centrálnímu uzlu (např. `hub` nebo `switch`)
 - Odolná vůči selhání jednotlivých zařízení, ale pokud selže centrální uzel, celá síť přestane fungovat
 - **Je to nejčastější topologie v LAN sítích**
 
