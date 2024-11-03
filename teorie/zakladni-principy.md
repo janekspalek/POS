@@ -13,7 +13,7 @@ Dělí se podle směru přenosu:
 2. `Synchronní` - data se přenáší ve formě **rámců s hlavičkou**, kontrolními součty a bez nutnosti synchronizace pro každý znak. **Vhodné pro vysokorychlostní přenos**, synchronizace probíhá na začátku bloku, takže ji není potřeba neustále obnovovat
 
 ## Přenosová média a modulace signálu
-1. `Fyzické vlastnosti signálu` - data se přenáší prostřednictvím **signálu** (napětí, intenzita světla...) který nese informace. Tyto signálu ale mohou být ovlivněny šumem a útlumem prostředí
+1. `Fyzické vlastnosti signálu` - data se přenáší prostřednictvím **signálu** (napětí, intenzita světla...) který nese informace. Tyto signály ale mohou být ovlivněny šumem a útlumem prostředí
 2. `Typy médií` - optická vlákna, kroucená dvojlinka a koaxiální kabely
 
 ### Modulace
