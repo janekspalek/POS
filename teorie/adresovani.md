@@ -20,4 +20,4 @@
 - Jedinečný identifikátor přiřazený každému fyzickému zařízení v síti, které podporuje síťové připojení
 - Mají `48 bitů`
 - Jsou zapsány v hexadecimálním formátu (`0:1A:2B:3C:4D:5E`)
-- První tři oktety jsou ID výrobce, zbylé tři oktety přiřazuje výrobce
+- První tři oktety jsou ID výrobce, zbylé tři jsou sériové číslo
