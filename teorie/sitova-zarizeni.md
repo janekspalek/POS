@@ -11,7 +11,7 @@
 - Pokud nastane výpadek, STP automaticky přepočítá topologii a zajistí, že síť zůstane funkční
 
 ## Routery (Směrovače) 
-- Směrovací zařízení, které propojuje sítě na síťové vrstvě (Layer 3)
+- Směrovací zařízení, které propojuje sítě na **síťové vrstvě** (Layer 3)
 - Umožňuje propojit různé sítě, používá IP adresy k předání dat na správné místo
 - Routery mohou být nakonfigurovány ručně (`statické směrování`), nebo automaticky (`dynamické směrování`) například pomocí `OSPF`
 
@@ -20,3 +20,7 @@
 2. `Firewall` a bezpečností funkce
 3. `VPN` pro zabezpečené propojení na dálku
 
+## Switch (Přepínače) 
+- Fungují na **linkové vrstvě** (Layer 2)
+- Hlavní výhodou je schopnost **přepínat data mezi segmenty bez kolizí**
+- Switche využívají `CAM tabulku` (Content Addressable Memory)
