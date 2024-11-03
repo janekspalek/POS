@@ -25,3 +25,10 @@
 - Hlavní výhodou je schopnost **přepínat data mezi segmenty bez kolizí**
 - Switche využívají `CAM tabulku` (Content Addressable Memory), která uchovává `MAC adresu` a přiřadí si ji k portu
 - Díky této tabulce mají také lepší **bezpečnost** - data jdou pouze tam, kam mají (po naučení CAM tabulky)
+- Každý port může fungovat v jiném módu (`half duplex`, `full duplex`)
+
+### Metody přepínání
+1. `Store-and-forward` - rámec je **nejprve uložen**, zkontrolován pomocí `CRC` (kontrola, zda nejsou data poškozena během přenosu) a pak přeposlán díle
+2. `Cut-through` - rámec je přeposlán **hned** po přečtení cílové `MAC adresy`
+3. `Fragment Free` - kombinuje výhody obou metod, přeposílání začíná, až když je jisté, že nedojde ke kolizi
+
