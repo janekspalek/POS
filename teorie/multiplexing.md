@@ -1,7 +1,7 @@
 ## Multiplexing
 - Metoda, která umožňuje přenos **více komunikačních kanálů přes jedno sdílené médium**
 - Když má médium dostatečně široké **pásmo** (kapacitu), můžeme jej rozdělit na **několik kanálů najednou**
-- Využívá se v **telefonních sítích televiziním vysílání** apod.
+- Využívá se v **telefonních sítích, televizním vysílání** apod.
 
 ### 1. Frequency Division Multiplexing (FMD)
 - Rozdělení kanálů podle **specifických frekvencí**
