@@ -13,7 +13,7 @@
    - Na kanál nikdy nebude přistupovat více stanic současně
 
 
-## Pravděpodobnostní protokoly (Contention-based)
+## `Nedeterministické protokoly` (kolizní)
 ### 1. Aloha
 - Základní protokol, kde stanice vysílá bez kontroly, zda je kanál volný
 - Po kolizi stanice počká náhodný čas a zkusí to znovu
