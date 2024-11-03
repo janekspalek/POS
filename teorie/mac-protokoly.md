@@ -31,6 +31,12 @@
 - `Ethernet` **je příkladem technologie, která tento protokol využívá**
 
 ## Deterministické protokoly (bezkolizní)
+### 1. Token passing
+- Ve stavu klidu, když žádný uzel nevyžaduje právo na vysílání, cyklicky putuje mezi uzly rámec `Token` (vysílací právo)
+- Počítač může začít vysílat pouze tehdy, když získá tento `Token`
+-** Dělí se na 2 metody:**
+     1. `Token ring`
+     2. `Token bus`
 ### 1. Centralized Control
 - Jeden hlavní uzel (např. master stanice) řídí přístup ke kanálu pro ostatní uzly
 - `Polling` - hlavní uzel dotazuje stanice, zda chtějí vysílat
