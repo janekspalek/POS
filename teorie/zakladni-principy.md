@@ -28,8 +28,19 @@ Dělí se podle směru přenosu
 - Pro `LAN`, `WAN`
 
 #### Non Return to Zero (NRZ)
+- Kvůli absenci neutrální hodnoty nelze toto kódování použít pro synchronní přenosy
 - 0 -> nízká úroveň
 - 1 -> vysoká úroveň
+
+<img src="https://github.com/user-attachments/assets/e8305e70-3815-4bcc-823a-880aab853b59" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
+
+
+#### Non Return to Zero Inverted (NRZI)
+- 0 -> úroveň signálu zůstává
+- 1 -> inverze signálu
+
+<img src="https://github.com/user-attachments/assets/695e000b-cc41-4891-b1db-707fb839fd7b" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
+
 
 1. `Baseband` - přenáší data v původní frekvenční oblasti bez modulace. Data mohou využívat celé frekvenční pásmo pro sebe a nevyužívají různé kanály, nedělí tedy médium pro více uživatelů. Používá se v LAN, Ethernetu
 2. `Broadband` - rozdělí šířku pásma na více kanálů, což umožní **více komunikací současně**. Je typický pro kabelovou televizi, mobilní sítě (3G, 4G, 5G), Wi-Fi sítě, satelitní internet a televize, optické sítě
