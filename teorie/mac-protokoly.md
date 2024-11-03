@@ -37,13 +37,11 @@
 - **Dělí se na 2 metody:**
      1. `Token ring`
      2. `Token bus`
-### 1. Centralized Control
+### 2. Centralizované řízení
 - Jeden hlavní uzel (např. master stanice) řídí přístup ke kanálu pro ostatní uzly
 - `Polling` - hlavní uzel dotazuje stanice, zda chtějí vysílat
 - `Request Arbitration` - stanice žádají o přístup na odděleném kanálu a hlavní uzel rozhoduje o přidělení
 
-### 2. Distributed Control
+### 2.Distribuované řízení
 - Každá stanice má možnost přístupu bez centrální kontroly, ale podle určitého algoritmu
-- `Bit-Map Protocol` - hlavní stanice generuje rezervační rámec, který určiuje, která stanice může vysílat
-- `Binary Countdown` - stanice vysílají adresy bit po bitu. Stanice s nejvyšší prioritou získává právo vysílat
-- `Token passing` - právo na vysílání je reprezentováno tokenem, který si stanice předávají
+- Nezávislé na řídící stanici, složitější implementace
