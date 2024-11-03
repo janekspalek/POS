@@ -42,6 +42,6 @@
 - `Polling` - hlavní uzel dotazuje stanice, zda chtějí vysílat
 - `Request Arbitration` - stanice žádají o přístup na odděleném kanálu a hlavní uzel rozhoduje o přidělení
 
-### 2.Distribuované řízení
+### 3. Distribuované řízení
 - Každá stanice má možnost přístupu bez centrální kontroly, ale podle určitého algoritmu
 - Nezávislé na řídící stanici, složitější implementace
