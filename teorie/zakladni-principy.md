@@ -1,18 +1,18 @@
-## 1. Základní principy přenosu dat
+## Základní principy přenosu dat
 Dělí se podle směru přenosu
 1. `Simplex` - data se přenášejí pouze **jedním směrem**, jeden kanál pro přenos (TV)
 2. `Half duplex` - přenos **střídavě v obou směrech**, pouze jeden směr najednou. pro přenos stačí jeden kanál (vysílačka)
-3. `Full duplex` - obě strany mohou komunikovat současn, musí být dva nezávislé kanály (Ethernet)
+3. `Full duplex` - obě strany mohou komunikovat **současně**, musí být dva nezávislé kanály (Ethernet)
 
-## 2. Paralelní a sériová komunikace
+## Paralelní a sériová komunikace
 1. `Paralelní` - více bitů je přenášeno současně, je dražší a komplikovanější na synchronizaci
 2. `Sériová` - v dnešní době standardem, kvůli nižším nákladům a jednodušší konstrukci kabelů
 
-### Asynchronní a synchronní přenos
+### Sériová asynchronní a synchronní přenos
 1. `Asynchronní` - přenáší znaky jeden po druhém s jednotlivými stop bity a možností kontroly parity (klávesnice)
 2. `Synchronní` - data se přenáší ve formě **rámců s hlavičkou**, kontrolními součty a bez nutnosti synchronizace pro každý znak. **Vhodné pro vysokorychlostní přenos**, synchronizace probíhá na začátku bloku, takže ji není potřeba neustále obnovovat
 
-## 3. Přenosová média a modulace signálu
+## Přenosová média a modulace signálu
 1. `Fyzické vlastnosti signálu` - data se přenáší prostřednictvím **signálu** (napětí, intenzita světla...) který nese informace. Tyto signálu ale mohou být ovlivněny šumem a útlumem prostředí
 2. `Typy médií` - optická vlákna, kroucená dvojlinka a koaxiální kabely
 
@@ -21,11 +21,11 @@ Dělí se podle směru přenosu
 2. `FM (Frequency Modulation)` - změna **frekvence** nosného signálu podle dat
 3. `PM (Phase modulation)` - změna **fáze** signálu, aby nesl informace
 
-## 4. Základní přenosové metody Baseband a Broadband
+## Základní přenosové metody Baseband a Broadband
 1. `Baseband` - přenáší data v původní frekvenční oblasti bez modulace. Data mohou využívat celé frekvenční pásmo pro sebe a nevyužívají různé kanály, nedělí tedy médium pro více uživatelů. Používá se v LAN, Ethernetu
 2. `Broadband` - rozdělí šířku pásma na více kanálů, což umožní **více komunikací současně**. Je typický pro kabelovou televizi, mobilní sítě (3G, 4G, 5G), Wi-Fi sítě, satelitní internet a televize, optické sítě
 
-## 5. Kódování signálu pro přenos dat
+## Kódování signálu pro přenos dat
 ### 1. Manchester a Differential Manchester
 **Manchester**
 - Každý bit je reprezentován změnou úrovně uprostřed bitového intervalu
