@@ -48,6 +48,14 @@ Dělí se podle směru přenosu
 
 <img src="https://github.com/user-attachments/assets/f992fdfc-4983-4012-8ba8-936410fc363c" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
 
+#### Diferenciální Manchester
+- 0 -> změna
+- 1 -> beze změny
+
+<img src="https://github.com/user-attachments/assets/9ef3459d-d95c-46f7-b044-de40a30e5029" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
+
+
+
 1. `Baseband` - přenáší data v původní frekvenční oblasti bez modulace. Data mohou využívat celé frekvenční pásmo pro sebe a nevyužívají různé kanály, nedělí tedy médium pro více uživatelů. Používá se v LAN, Ethernetu
 2. `Broadband` - rozdělí šířku pásma na více kanálů, což umožní **více komunikací současně**. Je typický pro kabelovou televizi, mobilní sítě (3G, 4G, 5G), Wi-Fi sítě, satelitní internet a televize, optické sítě
 
