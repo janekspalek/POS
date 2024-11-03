@@ -54,7 +54,13 @@ Dělí se podle směru přenosu
 
 <img src="https://github.com/user-attachments/assets/9ef3459d-d95c-46f7-b044-de40a30e5029" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
 
+#### Alternate Mark Inversion (AMI)
+- 3 úrovně amplitudy signálu (-1, 0, +1)
+- Problém při dlouhých posloupnostech nul
+- 0 -> nulová hodnota
+- 1 -> střídavě +1 a -1
 
+<img src="https://github.com/user-attachments/assets/4c8b1a4a-8517-4694-8fe5-973bdb88a1eb" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
 
 1. `Baseband` - přenáší data v původní frekvenční oblasti bez modulace. Data mohou využívat celé frekvenční pásmo pro sebe a nevyužívají různé kanály, nedělí tedy médium pro více uživatelů. Používá se v LAN, Ethernetu
 2. `Broadband` - rozdělí šířku pásma na více kanálů, což umožní **více komunikací současně**. Je typický pro kabelovou televizi, mobilní sítě (3G, 4G, 5G), Wi-Fi sítě, satelitní internet a televize, optické sítě
