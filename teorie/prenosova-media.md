@@ -32,6 +32,7 @@
 <img src="https://github.com/user-attachments/assets/e5d26f40-7071-4ccc-8db3-203630a99720" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
 
 ### 4. Strukturovaná kabeláž
+- Obecné označení metalických a optických prvků, které umožní **propojení** jednotlivých uživatelů v rámci sítě
 - Strukturovaný kabelážní systém je univerzální a umožňuje propojení různých zařízení (telefony, LAN, alarmy)
 - Tento systém se instaluje do budov jako trvalé řešení, které je nezávislé na konkrétní síťové technologii
 - Je snadno rozšiřitelný a přispůsobitelný pro budoucí potřeby
