@@ -15,3 +15,15 @@
 - Každý kanál má **různou vlnovou délku** (barvu světla), toto umožní více signálů přes jedno optické vlákno
 
 <img src="https://github.com/user-attachments/assets/c0b39934-6c2e-461a-bebf-371954c77533" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
+
+### 3. Time Division Multiplexing (TDM)
+- Každý kanál dostane přidělený `časový úsek`, kdy může vysílat
+- Může to být neefektivní, pokud nejsou všechny kanály využívány stále
+
+### 4. Statistical Multiplexing
+- Data se přenáší v **proměnlivých intervalech** (bursty)
+- Přidělení pásma závisí na aktuální potřebě jednotlivých kanálů, každý dostane jiný prostor a čas
+- Data jsou rozdělena do `paketů` nebo buněk s hlavičkami, které obsahují informace o **zdroji a cíli**
+- Je to ideální v případě, kdy není provoz stabilní a zařízení často posílají data nepravidelně (bursty)
+- Například při prohlížení internetu - **chvíli ano** (stahování stránky) a **chvíli ne** (čtení stránky)
+- Vhodné pro `Wi-Fi`
