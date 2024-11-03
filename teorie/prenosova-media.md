@@ -16,7 +16,7 @@
 - Levnější než koaxiál a běžně používaná v LAN
 - Obsahuje **čtyři páry drátů**, často se stíněním pro ochranu proti `elektromagnetickému rušení`
 - **Kategori kabelů** (`Cat3` až `Cat8`) určují kvalitu a maximální rychlost přenosu
-- `Cat5e` a vyšší** podporují gigabitové přenosy**
+- `Cat5e` a vyšší **podporují gigabitové přenosy**
 
 <img src="https://github.com/user-attachments/assets/f2fa5371-2b3d-4398-a0dc-45d1a452d35a" alt="Kroucená dvojlinka" style="max-width: 100%; width: 500px;">
 
