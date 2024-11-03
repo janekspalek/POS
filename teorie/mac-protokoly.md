@@ -4,8 +4,8 @@
 - Tyto protokoly rozhodují, **které zařízení může vysílat data a kdy**
 
 **Dělí se na dvě hlavní kategorie:**
-1. **Pravděpodobnostní protokoly** (Contention-based) - používají náhodné algortimy pro přístup ke kanálu, což může způsobit kolize, ale jsou jednodušší na implementaci
-2. **Deterministické protokoly** (Contention-free) - stanice se střídají podle předem daného algoritmu, **což zabrání kolizím**
+1. `Pravděpodobnostní protokoly` (Contention-based) - používají náhodné algortimy pro přístup ke kanálu, což může způsobit kolize, ale jsou jednodušší na implementaci
+2. `Deterministické protokoly` (Contention-free) - stanice se střídají podle předem daného algoritmu, **což zabrání kolizím**
 
 
 ## Pravděpodobnostní protokoly (Contention-based)
