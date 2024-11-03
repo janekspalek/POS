@@ -2,6 +2,7 @@
 - Technologie používaná pro přenos dat v lokálních sítích `LAN`
 - Nejpoužívanější standard pro kabelové sítě
 - Definuje pravidla pro **formát rámců**, **rychlosti přenosu** a **typy kabeláže**
+- Využívá `half-duplex` (pouze jedním směrem najednou, používá CSMA/CD) i `full-duplex` (oběma směry naráz)
 
 ### Pojmy v názvech Ethernet standardů
 - `Číslo` = přenosová rychlost, např. 10 Mbps, 100 Mbps, 1 Gbps
