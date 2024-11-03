@@ -27,3 +27,7 @@
 - Je to ideální v případě, kdy není provoz stabilní a zařízení často posílají data nepravidelně (bursty)
 - Například při prohlížení internetu - **chvíli ano** (stahování stránky) a **chvíli ne** (čtení stránky)
 - Vhodné pro `Wi-Fi`
+
+### Kombinace Multiplexing metod
+1. `GSM sítě` - využívají `FDMA` (Frequency Division Multiple Access) a `TDMA` (Time Division Multiple Access)
+2. `Wi-Fi` - `FDM` + `TDMA`
