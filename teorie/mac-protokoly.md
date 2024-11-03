@@ -13,7 +13,7 @@
    - Na kanál nikdy nebude přistupovat více stanic současně
 
 
-## `Nedeterministické protokoly` (kolizní)
+## Nedeterministické protokoly (kolizní)
 ### 1. Aloha
 - Základní protokol, kde stanice vysílá bez kontroly, zda je kanál volný
 - Po kolizi stanice počká náhodný čas a zkusí to znovu
@@ -30,7 +30,7 @@
 - Po kolizi stanice detekuje srážku a zastaví vysílání, aby šetřila kapacitu kanálu
 - `Ethernet` **je příkladem technologie, která tento protokol využívá**
 
-## Deterministické protokoly (Contention-free)
+## Deterministické protokoly (bezkolizní)
 ### 1. Centralized Control
 - Jeden hlavní uzel (např. master stanice) řídí přístup ke kanálu pro ostatní uzly
 - `Polling` - hlavní uzel dotazuje stanice, zda chtějí vysílat
