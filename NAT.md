@@ -3,9 +3,9 @@
 - `NAT` překládá `privátní` IP adresy vnitřní sítě na `veřejné` IP adresy
 - Zvyšuje bezpečnost a šetří veřejný adresní prostor
 
-## Konfigurace NAT na routeru
+## Konfigurace dynamického NAT
 
-### Identifikace rozhraní
+### 1. Identifikace rozhraní
 - **Vnitřní rozhraní** (`inside`) - rozhraní připojené k lokální síti
 - **Vnější rozhraní** (`outside`) - rozhraní připojené k externí síti, například k internetu
 
@@ -15,4 +15,13 @@
 (config-if)# exit
 (config)# interface GigabitEthernet0/1
 (config-if)# ip nat outside
+```
+
+### 2. Definice rezervoáru adres
+- Na co překládám
+
+```
+(config)# ip nat pool <nazev> <start_IP> <end_IP> netmask <maska>
+
+(config)# ip nat pool MujNATPool 20.0.0.1 20.0.0.100 netmask 255.255.255.0
 ```
