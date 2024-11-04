@@ -3,7 +3,7 @@
 - Když má médium dostatečně široké **pásmo** (kapacitu), můžeme jej rozdělit na **několik kanálů najednou**
 - Využívá se v **telefonních sítích, televizním vysílání** apod.
 
-### 1. Frequency Division Multiplexing (FMD)
+### 1. Frequency Division Multiplexing (FDM)
 - Rozdělení kanálů podle **specifických frekvencí**
 - Je vhodné pro **fixní počet uživatelů**, mezi jednotlivými kanály je potřeba ponechat **frekvenční mezery** kvůli rušení
 
