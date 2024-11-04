@@ -6,5 +6,13 @@
 ## Konfigurace NAT na routeru
 
 ### Identifikace rozhraní
-- Vnitřní rozhraní (`inside`) - rozhraní připojené k lokální síti
-- Vnější rozhraní (`outside`) - rozhraní připojené k externí síti, například k internetu
+- **Vnitřní rozhraní** (`inside`) - rozhraní připojené k lokální síti
+- **Vnější rozhraní** (`outside`) - rozhraní připojené k externí síti, například k internetu
+
+```
+(config)# interface GigabitEthernet0/0
+(config-if)# ip nat inside
+(config-if)# exit
+(config)# interface GigabitEthernet0/1
+(config-if)# ip nat outside
+```
