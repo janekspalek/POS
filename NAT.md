@@ -20,7 +20,7 @@ ip address add default via 10.0.0.1
 ```
 
 
-### 1. Identifikace rozhraní
+### 2. Identifikace rozhraní
 - **Vnitřní rozhraní** (`inside`) - rozhraní připojené k lokální síti
 - **Vnější rozhraní** (`outside`) - rozhraní připojené k externí síti, například k internetu
 
@@ -32,7 +32,7 @@ ip address add default via 10.0.0.1
 (config-if)# ip nat outside
 ```
 
-### 2. Definice rezervoáru adres
+### 3. Definice rezervoáru adres
 - **Na co překládám**
 
 ```
@@ -41,7 +41,7 @@ ip address add default via 10.0.0.1
 (config)# ip nat pool MujNATPool 20.0.0.1 20.0.0.100 netmask 255.255.255.0
 ```
 
-### 3. Vybrání překládaných adres
+### 4. Vybrání překládaných adres
 - **Co se má překládat**
 - `wildcard` = kde jsou nuly, musí být adresa stejná jako adresa sítě
 
@@ -51,7 +51,7 @@ ip address add default via 10.0.0.1
 (config)# access-list 1 permit 10.0.0.0 0.0.0.255
 ```
 
-### 4. Samotný překlad na adresy z poolu
+### 5. Samotný překlad na adresy z poolu
 
 ```
 (config)# ip nat inside source list <ACL číslo> pool <NAZEV> overload
