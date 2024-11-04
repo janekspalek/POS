@@ -18,10 +18,20 @@
 ```
 
 ### 2. Definice rezervoáru adres
-- Na co překládám
+- **Na co překládám**
 
 ```
 (config)# ip nat pool <nazev> <start_IP> <end_IP> netmask <maska>
 
 (config)# ip nat pool MujNATPool 20.0.0.1 20.0.0.100 netmask 255.255.255.0
+```
+
+### 3. Vybrání překládaných adres
+- **Co se má překládat**
+- wildcard = kde jsou nuly, musí být adresa stejná jako adresa sítě
+
+```
+(config)# access-list <ACL číslo 1-99> permit <IP> <wildcard>
+
+(config)# access-list 1 permit 10.0.0.0 0.0.0.255
 ```
