@@ -5,6 +5,21 @@
 
 ## Konfigurace dynamického NAT
 
+### 1. (optional) Nastavení IP adresy PC + gateway
+**Nastavení IP adresy PC**
+```
+ip address add <adresa>/<maska> dev eth<cislo>
+
+ip address add 10.0.0.2/24 dev eth1
+```
+**Nastavení gateway** (gateway = port na routeru)
+```
+ip route add default via <brana>
+
+ip address add default via 10.0.0.1
+```
+
+
 ### 1. Identifikace rozhraní
 - **Vnitřní rozhraní** (`inside`) - rozhraní připojené k lokální síti
 - **Vnější rozhraní** (`outside`) - rozhraní připojené k externí síti, například k internetu
