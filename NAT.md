@@ -28,10 +28,31 @@
 
 ### 3. Vybrání překládaných adres
 - **Co se má překládat**
-- wildcard = kde jsou nuly, musí být adresa stejná jako adresa sítě
+- `wildcard` = kde jsou nuly, musí být adresa stejná jako adresa sítě
 
 ```
 (config)# access-list <ACL číslo 1-99> permit <IP> <wildcard>
 
 (config)# access-list 1 permit 10.0.0.0 0.0.0.255
 ```
+
+### 4. Samotný překlad na adresy z poolu
+
+```
+(config)# ip nat inside source list <ACL číslo> pool <NAZEV> overload
+
+(config)# ip nat inside source list 1 pool MujNATPool overload
+```
+
+### Zobrazení překladové tabulky
+
+Zobrazení překladové tabulky
+```
+Router# show ip nat translations
+```
+
+Vymazání překladové tabulky
+```
+Router# clear ip nat translations *
+```
+
